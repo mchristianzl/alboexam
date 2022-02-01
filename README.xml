@@ -1,0 +1,9 @@
+Albo exam
+
+Se requiere mysql instalado en el servidor 
+En el archivo .env por favor coloque las "key" para el uso del API de marvel, se enviaron por email
+El proyecto se desarrolló en typescript, basicamente:
+    - crea una base de datos en mysql
+    - descarga los modulos requeridos 
+    - levanta un servidor en el puerto configurado en el archivo .env
+    - se obtiene el valor del avenger, se busca su id en la tabla de la BD y se conecta a marvel 
